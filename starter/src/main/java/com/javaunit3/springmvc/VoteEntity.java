@@ -19,4 +19,11 @@ public class VoteEntity {
             .addAnnotatedClass(MovieEntity.class)
             .addAnnotatedClass(VoteEntity.class)
             .buildSessionFactory();
+
+    public String getVoterName() {
+        return null;
+    }
+
+    public void setVotersName(String votersName) {
+    }
 }
